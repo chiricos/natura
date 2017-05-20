@@ -1,3 +1,60 @@
-body{
-    background: url("../img/fondo.png");
+.content{
+    background: url("../img/fondo.png") no-repeat;
+    background-size: contain;
+    margin: auto;
+    height: 615px;
+    width: 1024px;
+}
+
+form{
+    left: 100px;
+    position: relative;
+    top: 430px;
+    width: 500px;
+    z-index: 9999;
+}
+
+form section{
+    border: 1px solid #803589;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    width: 60%;
+}
+
+form button{
+    background: none;
+    border: none;
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top;
+    width: 34%;
+}
+
+form button img{
+    width: 100%;
+}
+
+.primero{
+
+}
+
+.primero input{
+    background: #803589;
+    border: none;
+    color: white;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+}
+
+.segundo input{
+    background: #803589;
+    border: none;
+    color: white;
+    height: 30px;
+    padding: 0 10px;
+    width: calc(48% - 20px );
 }
